@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{A049D83C-3068-41F7-B2EA-DFCB62E042F7}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AsReaderLR_VS</RootNamespace>
+    <AssemblyName>AsReaderLR_VS</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>__UNIFIED__;__MOBILE__;__IOS__;DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>35080</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <MtouchExtraArgs>-cxx -gcc_flags</MtouchExtraArgs>
+    <CodesignExtraArgs>
+    </CodesignExtraArgs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <MtouchExtraArgs>-cxx -gcc_flags</MtouchExtraArgs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <MtouchExtraArgs>-cxx -gcc_flags</MtouchExtraArgs>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>14505</IOSDebuggerPort>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <MtouchExtraArgs>-cxx -gcc_flags</MtouchExtraArgs>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\57x57.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\114x114.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemSetting.cs" />
+    <Compile Include="ScanDeviceTableViewController.cs" />
+    <Compile Include="ScanDeviceTableViewController.designer.cs">
+      <DependentUpon>ScanDeviceTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScanDeviceTableViewCell.cs" />
+    <Compile Include="ScanDeviceTableViewCell.designer.cs">
+      <DependentUpon>ScanDeviceTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainButton.cs" />
+    <Compile Include="MainButton.designer.cs">
+      <DependentUpon>MainButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryViewController.cs" />
+    <Compile Include="InventoryViewController.designer.cs">
+      <DependentUpon>InventoryViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryTableViewCell.cs" />
+    <Compile Include="InventoryTableViewCell.designer.cs">
+      <DependentUpon>InventoryTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TagAccessViewController.cs" />
+    <Compile Include="TagAccessViewController.designer.cs">
+      <DependentUpon>TagAccessViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadMemoryViewController.cs" />
+    <Compile Include="ReadMemoryViewController.designer.cs">
+      <DependentUpon>ReadMemoryViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeDemoViewController.cs" />
+    <Compile Include="BarcodeDemoViewController.designer.cs">
+      <DependentUpon>BarcodeDemoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeDemoTableViewCell.cs" />
+    <Compile Include="BarcodeDemoTableViewCell.designer.cs">
+      <DependentUpon>BarcodeDemoTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsViewController.cs" />
+    <Compile Include="OptionsViewController.designer.cs">
+      <DependentUpon>OptionsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeOptionViewController.cs" />
+    <Compile Include="BarcodeOptionViewController.designer.cs">
+      <DependentUpon>BarcodeOptionViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WriteMemoryViewController.cs" />
+    <Compile Include="WriteMemoryViewController.designer.cs">
+      <DependentUpon>WriteMemoryViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionMaskViewController.cs" />
+    <Compile Include="SelectionMaskViewController.designer.cs">
+      <DependentUpon>SelectionMaskViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionMaskTableViewCell.cs" />
+    <Compile Include="SelectionMaskTableViewCell.designer.cs">
+      <DependentUpon>SelectionMaskTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EpcMaskViewController.cs" />
+    <Compile Include="EpcMaskViewController.designer.cs">
+      <DependentUpon>EpcMaskViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EpcMaskTableViewCell.cs" />
+    <Compile Include="EpcMaskTableViewCell.designer.cs">
+      <DependentUpon>EpcMaskTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectionMaskEditViewController.cs" />
+    <Compile Include="SelectionMaskEditViewController.designer.cs">
+      <DependentUpon>SelectionMaskEditViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EpcMaskEditViewController.cs" />
+    <Compile Include="EpcMaskEditViewController.designer.cs">
+      <DependentUpon>EpcMaskEditViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarcodeOption_VC.cs" />
+    <Compile Include="BarcodeOption_VC.designer.cs">
+      <DependentUpon>BarcodeOption_VC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsTagitem.cs" />
+    <Compile Include="AsBarcodeItem.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="AsReaderGUNManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AsReaderGunSDK\AsReaderGunSDK.csproj">
+      <Project>{92721842-06B5-43A8-B3FB-2C2459E8B63A}</Project>
+      <Name>AsReaderGunSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AsRingAccessorySDK\AsRingAccessorySDK.csproj">
+      <Project>{0DBEC221-9DAF-4EC0-850D-4BD30D29BC02}</Project>
+      <Name>AsRingAccessorySDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MBProgressHud\MBProgressHud.csproj">
+      <Project>{DBD6D019-23FA-4DDE-96A7-1911BAB07F95}</Project>
+      <Name>MBProgressHud</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\battery0.png" />
+    <BundleResource Include="Resources\battery1.png" />
+    <BundleResource Include="Resources\battery2.png" />
+    <BundleResource Include="Resources\battery3.png" />
+    <BundleResource Include="Resources\battery4.png" />
+    <BundleResource Include="Resources\ic_barcode_demo.png" />
+    <BundleResource Include="Resources\ic_connected_logo.png" />
+    <BundleResource Include="Resources\ic_connecting_logo.png" />
+    <BundleResource Include="Resources\ic_debug.png" />
+    <BundleResource Include="Resources\ic_disconnected_logo.png" />
+    <BundleResource Include="Resources\ic_filter_inventory.png" />
+    <BundleResource Include="Resources\ic_inventory.png" />
+    <BundleResource Include="Resources\ic_option.png" />
+    <BundleResource Include="Resources\ic_read_memory.png" />
+    <BundleResource Include="Resources\ic_stored_tag.png" />
+    <BundleResource Include="Resources\ic_tag_access.png" />
+    <BundleResource Include="Resources\ic_write_memory.png" />
+    <BundleResource Include="Resources\asreaderlogoff.png" />
+    <BundleResource Include="Resources\asreaderlogon.png" />
+    <BundleResource Include="Resources\Xamagon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsRingAccessorySDK/bin/Release/AsRingAccessorySDK.dll
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.dll
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.csprojResolveAssemblyReference.cache
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsRingAccessorySDK/bin/Release/AsRingAccessorySDK.dll
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.dll
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.csprojResolveAssemblyReference.cache
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsRingAccessorySDK/bin/Release/AsRingAccessorySDK.dll
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.csproj.CoreCompileInputs.cache
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsRingAccessorySDK/obj/Release/AsRingAccessorySDK.dll

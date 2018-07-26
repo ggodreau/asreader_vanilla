@@ -1,0 +1,15 @@
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsReaderGunSDK/bin/Release/AsReaderGunSDK.dll
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsReaderGunSDK/bin/Release/AsRingAccessorySDK.dll
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.csprojResolveAssemblyReference.cache
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/gitWork/Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.dll
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsReaderGunSDK/bin/Release/AsReaderGunSDK.dll
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsReaderGunSDK/bin/Release/AsRingAccessorySDK.dll
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.csprojResolveAssemblyReference.cache
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/gitWork/GUN_Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.dll
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsReaderGunSDK/bin/Release/AsReaderGunSDK.dll
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsReaderGunSDK/bin/Release/AsRingAccessorySDK.dll
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.csprojResolveAssemblyReference.cache
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.csproj.CoreCompileInputs.cache
+/Users/apple/git/Xamarin/AsReaderLR_VS/AsReaderGunSDK/obj/Release/AsReaderGunSDK.dll

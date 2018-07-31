@@ -298,6 +298,7 @@ namespace AsRingAccessorySDK
         [Export("deviceSDK", ArgumentSemantic.Strong)]
         AsRingAccessoryBaseSDK DeviceSDK { get; }
 
+        // https://docs.microsoft.com/en-us/dotnet/api/system.intptr?view=netframework-4.7.1
         // -(instancetype)initWithdeviceModel:(NSString *)deviceModel DeviceAddress:(NSString *)deviceAddress SDK:(AsRingAccessoryBaseSDK *)deviceSDK;
         [Export("initWithdeviceModel:DeviceAddress:SDK:")]
         IntPtr Constructor(string deviceModel, string deviceAddress, AsRingAccessoryBaseSDK deviceSDK);
